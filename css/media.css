@@ -1,0 +1,95 @@
+
+/* start media design for home page */
+
+@media scree and(max-width:1148px){
+.my_cv{
+min-width:320px;
+width:80%;
+margin:auto;
+}
+
+    }
+
+
+@media screen and (max-width:700px){
+.img-header{
+display: flex;
+}
+
+
+article{
+
+    margin-right:-35px;
+}
+    }
+
+/* End Media Design for home page*/
+
+
+/* Start media dfor Certificate page */
+
+@media(max-width:1200px){
+
+
+
+footer{
+
+    height:150px;
+
+}
+
+.fab{
+
+margin-left:60px;
+padding:0px;
+margin-top:15px;
+
+}
+
+
+.main-nav ul{
+
+margin-left:-20px;
+
+    }
+
+}
+
+@media(max-width:700px){
+
+.img-certificate img{
+    padding: 0;
+    margin:0;
+  }
+
+ .certificate p{
+
+    margin-right:25px;
+    }
+
+
+.main-nav ul{
+
+    padding:0px;
+    margin:0;
+
+  }
+
+}
+
+@media(max-width:320px){
+
+
+.main-nav a{
+   font-size:20px;
+  }
+
+
+.certificate p{
+
+    margin-right:25px;
+
+    }
+  }
+
+  /*End  media for certificate page*/
