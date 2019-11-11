@@ -27,11 +27,13 @@ body{
 
 .im-features{
 text-align: center;
+color:#00ccff;
 }
 
 .features{
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-gap:15px;
+  grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
   justify-content: center;
   width: 100%;
   text-align: center;
@@ -70,3 +72,7 @@ width: 70%;
 }
 
 /*End Body*/
+
+
+/*Article*/
+

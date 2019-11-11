@@ -5,6 +5,7 @@
 
     <title>Udacity portfolio - Saeed Shaban</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -18,18 +19,16 @@
     <!--Body-->
 <div class="container">
 
+<!--top Site header-->
+    
   <!--header-->
   <header>
-    <nav class="main-nav">
-      <ul>
-        <li><a href='index.html'>home</a></li>
-          <li><a href='certificate.html'>Certificates</a></li>
-            <li><a href='#'>Contacts</a></li>
-      </ul>
-    </nav>
+    <nav id="navbar">
+      <ul id="navlist"></ul>
+</nav>
 
 <div class="my_name">
-      <h2>Full Stack Developer</h2>
+      <h1>Full Stack Developer</h1>
     </div>
   </header>
 <hr>
@@ -39,12 +38,13 @@
 
 
 <!-- body  -->
+<section id="section1" class="section" data-info="Services">
 <h1 class='im-features'>Why Work With Me</h1>
 <div class="features">
 
 
   <!--one-->
-  <div class="items">
+  <div class="item">
     <img src="img/one.jpeg" width='300' height='200'>
     <br>
     <p>the code not have Any errors</p>
@@ -52,7 +52,7 @@
 
 
   <!--tow-->
-  <div class="items">
+  <div class="item">
     <img src="img/tow.png" width='300' height='200'>
     <br>
     <p>i can resolve any problems in code</p>
@@ -60,24 +60,28 @@
 
 
   <!--there-->
-  <div class="items">
+  <div class="item">
     <img src="img/there.png" width='300' height='200'>
     <br>
     <p>the support available 24 hours </p>
   </div>
 </div>
+
+</section>
 <!-- end items -->
 <hr>
 
+
+<section id="section2" class="section" data-info="About">
 <h1 class='im-features'>About Me</h1>
 <div class="my_cv">
 
 <article>
   <p>
-hi, my name is saeed shaban , im work full stack developer using
-python programing language , i have nano degree <em>full stack developer</em> from Udacity
+hi, my name is <underline>saeed shaban</underline> , im work full stack developer using
+python programing language , i have nano degree <bold>full stack developer</bold> from <etalic>Udacity</etalic>
 you can check my projects<a href='http://arabsuccess.org/' target="_blank"><br>in this link </a> and you can download all prjects in
-my repository <a href='https://github.com/apomohab' target="_blank"> in github </a>
+my repository <a href='https://github.com/apomohab' target="_blank"> in <qutes>github</qutes> </a>
   </p>
 </article>
 
@@ -86,7 +90,110 @@ my repository <a href='https://github.com/apomohab' target="_blank"> in github <
 </div>
 </div>
 </div>
+</section>
 <!--end body-->
+
+
+
+<hr>
+
+<!--service-->
+
+<section id="section3" class="section" data-info="Projects">
+  <h1 class='im-features'>Projects</h1>
+  <div class="features">
+  
+  
+    <!--one-->
+    <div class="item">
+      <img src="img/p1.jpg" width='300' height='200'>
+      <br>
+    </div>
+  
+  
+    <!--tow-->
+    <div class="item">
+      <img src="img/p2.jpeg" width='300' height='200'>
+      <br>
+    </div>
+  
+  
+    <!--there-->
+    <div class="item">
+      <img src="img/p4.jpg" width='300' height='200'>
+      <br>
+    </div>
+    
+  </section>
+  <!-- end items -->
+
+
+<!--end Service-->
+
+
+
+
+
+<hr>
+
+<!--Articles-->
+
+<section id="section3" class="section" data-info="Articles">
+  <h1 class='im-features'>Articles</h1>
+  <div class="features">
+  
+  
+    <!--one-->
+    <div class="item">
+      <p>
+        
+        <h3>How many programming languages are there?</h3>
+        As computers have evolved, many different computer programming languages created for various types of development. Although we do have several dozen languages listed on our site, there are hundreds that we don't have listed
+        <br>
+        <a href="#">Read more</a>
+      </p>
+      <br>
+    </div>
+  
+  
+    <!--tow-->
+    <div class="item">
+      <p>
+
+        <h3>What are the top programming languages</h3>
+
+        There are many different ways this question could be answered. However, we feel that the best method is to rely on the data from GitHub, a service that hosts over 96 million different software projects.
+
+        <br>
+        <a href="#">Read more</a>
+      </p>
+      <br>
+    </div>
+  
+  
+    <!--there-->
+    <div class="item">
+     <p>
+
+      <h3>Script development</h3>
+
+      Although it is not likely to become a career, knowing how to create and develop scripts can increase productivity for you or your company, saving you countless hours
+     
+      <br>
+
+      <a href="#">Read more</a>
+    </p>
+      <br>
+    </div>
+    
+  </section>
+  <!-- end items -->
+
+
+<!--end Service-->
+
+
+
 
 
 
@@ -116,6 +223,6 @@ my repository <a href='https://github.com/apomohab' target="_blank"> in github <
 </footer>
 <!--end footer-->
 
-
+<script src="/js/app.js"></script>    
   </body>
 </html>
